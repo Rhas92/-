@@ -12,6 +12,8 @@ body {
     background-color: #1f2937;
 }
 
+/* this part is for the header section */
+
 .header .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -36,6 +38,8 @@ body {
     font-size: 18px;
 }
 
+/* this part is for the media section */
+
 .reverse-media {
     display: flex;
     align-items: flex-start;
@@ -53,10 +57,14 @@ body {
     height: 300px;
 }
 
+/* Removes lines and blue text from links*/
+
 a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+/* Removes dots on the lists*/
 
 ul {
     list-style-type: none;
