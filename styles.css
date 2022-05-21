@@ -113,15 +113,40 @@ body {
     height: 150px;
     border-radius: 10%;
 }
+/* Quote Section */
 
-/* Removes lines and blue text from links*/
+.quote {
+    display: flex;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    flex-flow: column wrap;
+}
+
+.quote .text {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    padding: 10px 350px;
+}
+
+.quote .author {
+    align-self: flex-end;
+    padding: 10px 350px;
+}
+
+/* Removes lines and blue text from links */
 
 a {
     text-decoration: none;
     color: #e5e7eb;
 }
 
-/* Removes dots on the lists*/
+/* Removes dots on the lists */
 
 ul {
     list-style-type: none;
