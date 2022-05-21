@@ -142,7 +142,7 @@ body {
 }
 
  /* Call to action section */
- 
+
 .call {
     display: flex;
     background-color: #3882f6;
@@ -178,6 +178,17 @@ body {
     border-color: #e5e7eb;
     border: solid 2px;
     font-weight: 700;
+}
+
+/* Footer Section */
+
+.footer {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 18px;
 }
 
 /* Removes lines and blue text from links */
