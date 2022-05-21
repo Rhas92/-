@@ -125,6 +125,8 @@ body {
     height: 300px;
     width: auto;
     flex-flow: column wrap;
+    flex: 1;
+    padding: 58px;
 }
 
 .quote .text {
