@@ -136,7 +136,8 @@ body {
 }
 
 .quote .author {
-    align-self: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
     padding: 10px 350px;
     font-weight: 700;
     font-size: 18px;
