@@ -137,6 +137,47 @@ body {
 .quote .author {
     align-self: flex-end;
     padding: 10px 350px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+ /* Call to action section */
+ 
+.call {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px;
+    padding: 30px;
+    gap: 16px;
+}
+
+.call, .call-text {
+    color: #f9faf8;
+}
+
+.call-text .main-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.call-text .sub-text {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.call .button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border: solid 2px;
+    font-weight: 700;
 }
 
 /* Removes lines and blue text from links */
