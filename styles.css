@@ -8,7 +8,7 @@ body {
     font-family: Roboto, monospace, sans-serif;
 }
 
-.header, .reverse-media, .footer {
+.header, .media, .footer {
     background-color: #1f2937;
 }
 
@@ -41,18 +41,19 @@ body {
 
 /* this part is for the media section */
 
-.reverse-media {
+.media {
     display: flex;
-    flex-direction: row-reverse;
     padding: 50px 200px;
     justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 46px;
 }
 
 .media-content {
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    padding-right: 100px;
 }
 
 .media-image img {
@@ -67,9 +68,10 @@ body {
 }
 
 .hero-text {
+    margin-top: 10px;
     font-size: 18px;
     color: #e5e7eb;
-    margin-top: 20px;
+    width: 300px;
 }
 
 .media-button {
