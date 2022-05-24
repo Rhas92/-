@@ -121,23 +121,19 @@ body {
     display: flex;
     color: #1f2937;
     background-color: #e5e7eb;
+    flex-flow: column wrap;
+    padding: 120px 120px 98px;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: auto;
-    flex-flow: column wrap;
-    padding: 46px 350px;
 }
 
-.quote .container{
-    flex-shrink: 1;
-}
 .quote .text {
-    display: flex;
     color: #1f2937;
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
+    padding: 0;
+    margin: 0;
 }
 
 .quote .author {
@@ -145,6 +141,8 @@ body {
     flex-direction: row-reverse;
     font-weight: 700;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
 }
 
  /* Call to action section */
