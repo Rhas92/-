@@ -98,6 +98,7 @@ body {
     justify-content: center;
     gap: 52px;
     margin-bottom: 28px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -125,11 +126,11 @@ body {
     height: 300px;
     width: auto;
     flex-flow: column wrap;
-    flex: 1;
-    padding: 58px;
+    padding: 46px;
 }
 
 .quote .text {
+    display: flex;
     color: #1f2937;
     font-style: italic;
     font-weight: 300;
